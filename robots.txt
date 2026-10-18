@@ -1,0 +1,20 @@
+# robots.txt — Online MBA & Degrees (DPU Pune) app
+# Everything is allowed to all crawlers (Google, Bing, and partners).
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome the major search crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Adidxbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://amezingtech.github.io/online-mba-programs/sitemap.xml

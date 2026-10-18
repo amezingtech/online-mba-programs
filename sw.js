@@ -1,5 +1,5 @@
-const CACHE = 'online-mba-programs-v1';
-const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './privacy-policy.html'];
+const CACHE = 'online-mba-programs-v2';
+const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './privacy-policy.html', './robots.txt', './sitemap.xml'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));

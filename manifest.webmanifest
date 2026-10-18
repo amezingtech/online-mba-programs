@@ -1,6 +1,10 @@
 {
+  "id": "com.amezingtech.onlinembaprograms",
   "name": "Online MBA & Degrees — DPU Pune",
   "short_name": "Online MBA",
+  "version": "1.1.0",
+  "lang": "en",
+  "dir": "ltr",
   "description": "Online MBA 2026: fees, 18 specializations & admission. All 8 DPU Pune online degree programs — MBA, BBA, BCA, MCA, M.Com, B.Com & certificates. Free counseling on WhatsApp.",
   "start_url": "./index.html",
   "scope": "./",
